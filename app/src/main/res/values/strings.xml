@@ -35,4 +35,9 @@
     <string name="today">Heute</string>
     <string name="tommorow">Morgen</string>
     <string name="later">Später</string>
+    
+    <!--EM Views-->
+    <string name="defaultClubname">Clubname</string>
+    <string name="adress">Adresse</string>
+    <string name="priceclass">Preisklasse</string>
 </resources>
