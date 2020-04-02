@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">EventApp</string>
+    <string name="mail">E-Mail</string>
+    <string name="password">Passwort</string>
+    <string name="register">Registrieren</string>
+    <string name="login">Anmelden</string>
+
+    <!--Register-->
+    <string name="user">User</string>
+    <string name="event_manager">Event Manager</string>
+    <string name="register_question">Als was willst du dich registrieren</string>
+    <string name="surname">Name</string>
+    <string name="firstname">Vorname</string>
+    <string name="street">Strasse</string>
+    <string name="streetnumber">Hausnummer</string>
+    <string name="city">Stadt</string>
+    <string name="postalcode">PLZ</string>
+    <string name="emName">Name (muss einzigartig sein)</string>
+
+    <!--User Views-->
+    <string name="settings">Einstellungen</string>
+    <string name="partys">Partys</string>
+    <string name="partysInTown">Partys in %Stadt%</string>
+    <string name="reservations">Reservationen</string>
+    <string name="personalSettings">Persönliche Einstellungen</string>
+    <string name="change">Ändern</string>
+    <string name="mailDefault">mail.mail@gmail.com</string>
+    <string name="pswDefault">********</string>
+    <string name="partycity">Partystadt</string>
+    <string name="appSettings">App Einstellungen</string>
+    <string name="notificationSetting">Benachrichtigungen</string>
+    <string name="billingMethod">Zahlungsmethoden</string>
+    <string name="saveSettings">Einstellungen speichern</string>
+    <string name="logout">Abmelden</string>
+    <string name="today">Heute</string>
+    <string name="tommorow">Morgen</string>
+    <string name="later">Später</string>
+</resources>

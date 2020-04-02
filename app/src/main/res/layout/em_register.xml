@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/priceclassDropdown"
+        style="@android:style/Widget.Material.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="@string/mail"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="@dimen/inputTextSize" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+
+        android:id="@+id/emName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="@string/emName"
+        android:inputType="none|text"
+        android:padding="10dp"
+        android:textSize="@dimen/inputTextSize" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+
+            android:id="@+id/streetTf"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="@string/street"
+            android:inputType="text|textPostalAddress"
+            android:padding="10dp"
+            android:textSize="@dimen/inputTextSize" />
+
+        <EditText
+
+            android:id="@+id/streetnumberTF"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="@string/streetnumber"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="@dimen/inputTextSize" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+
+            android:id="@+id/cityTF"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="@string/city"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="@dimen/inputTextSize" />
+
+        <EditText
+
+            android:id="@+id/postalcodeTF"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="@string/postalcode"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="@dimen/inputTextSize" />
+    </LinearLayout>
+
+</LinearLayout>
