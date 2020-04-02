@@ -18,7 +18,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="@string/settings"
+                android:text="@string/createEvent"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="@dimen/titelTextSize" />
 
@@ -60,7 +60,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="@string/defaultClubname"
+                            android:text="@string/eventnameVisibleFor"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                             android:textSize="@dimen/defaultTextSize" />
                     </LinearLayout>
@@ -83,10 +83,79 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="@string/adress"
+                            android:text="@string/ticketprice"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                             android:textSize="@dimen/defaultTextSize" />
 
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/seats"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="@dimen/defaultTextSize" />
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/minimalAge"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="@dimen/defaultTextSize" />
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/startTime"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="@dimen/defaultTextSize" />
                     </LinearLayout>
 
                     <Space
@@ -102,15 +171,14 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView9"
+                            android:id="@+id/textView13"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="@string/priceclass"
+                            android:text="@string/endTime"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                             android:textSize="@dimen/defaultTextSize" />
-
                     </LinearLayout>
 
                 </LinearLayout>
@@ -157,36 +225,33 @@
                         android:layout_height="40dp"
                         android:layout_weight="1" />
 
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_weight="1" />
+
+                    <Spinner
+                        android:id="@+id/partycityDropdown3"
+                        style="@android:style/Widget.Material.Spinner.Underlined"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_weight="1" />
+
+                    <Spinner
+                        android:id="@+id/partycityDropdown4"
+                        style="@android:style/Widget.Material.Spinner.Underlined"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1" />
+
                 </LinearLayout>
 
             </LinearLayout>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center|top"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical"/>
-
-            </LinearLayout>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
 
             <Space
                 android:layout_width="match_parent"
@@ -197,7 +262,7 @@
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:background="@drawable/default_button"
-                android:text="@string/saveSettings"
+                android:text="@string/saveEvent"
                 android:textColor="@color/colorSecondary" />
 
         </LinearLayout>

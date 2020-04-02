@@ -106,7 +106,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView9"
+                            android:id="@+id/textView10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -182,7 +182,7 @@
                 android:layout_height="20dp" />
 
             <TextView
-                android:id="@+id/textView10"
+                android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/appSettings"

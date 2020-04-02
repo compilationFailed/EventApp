@@ -40,4 +40,12 @@
     <string name="defaultClubname">Clubname</string>
     <string name="adress">Adresse</string>
     <string name="priceclass">Preisklasse</string>
+    <string name="createEvent">Event erstellen</string>
+    <string name="eventnameVisibleFor">Eventname \n(Nur für EM sichtbar)</string>
+    <string name="ticketprice">Ticketpreis</string>
+    <string name="seats">Plätze</string>
+    <string name="minimalAge">Mindestalter</string>
+    <string name="startTime">Startzeit</string>
+    <string name="endTime">Endzeit</string>
+    <string name="saveEvent">Event speichern</string>
 </resources>
