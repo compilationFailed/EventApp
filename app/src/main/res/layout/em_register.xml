@@ -34,6 +34,42 @@
 
     <EditText
 
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="@dimen/inputTextSize" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1" />
+
+    <EditText
+
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="@string/repeatPsw"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="@dimen/inputTextSize" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1" />
+
+    <EditText
+
         android:id="@+id/emName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -35,6 +35,7 @@
     <string name="today">Heute</string>
     <string name="tommorow">Morgen</string>
     <string name="later">Später</string>
+    <string name="repeatPsw">Passwort wiederholen</string>
     
     <!--EM Views-->
     <string name="defaultClubname">Clubname</string>
@@ -48,4 +49,5 @@
     <string name="startTime">Startzeit</string>
     <string name="endTime">Endzeit</string>
     <string name="saveEvent">Event speichern</string>
+    <string name="myevents">Meine Events</string>
 </resources>
