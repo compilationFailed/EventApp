@@ -42,7 +42,7 @@ public class userController implements View.OnClickListener {
         showviewLayout.addView(userRegisterLayout);
         //Settings View Controller vorbereiten
         mA.getControllerManager().getUserSettingsController().setmA(mA);
-        mA.getControllerManager().getUserSettingsController().initialiseView();
+        mA.getControllerManager().getUserSettingsController().prepareComponents();
     }
 
     public void showPartys(){
@@ -52,6 +52,9 @@ public class userController implements View.OnClickListener {
         LayoutInflater inflater = LayoutInflater.from(mA);
         View userRegisterLayout =  inflater.inflate(R.layout.user_partys, null);
         showviewLayout.addView(userRegisterLayout);
+        //Partys View Controller vorbereiten
+        mA.getControllerManager().getUserPartysController().setmA(mA);
+        mA.getControllerManager().getUserPartysController().prepareComponents();
     }
 
     public void showReservations(){

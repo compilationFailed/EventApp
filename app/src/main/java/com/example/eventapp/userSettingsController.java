@@ -12,7 +12,7 @@ public class userSettingsController implements View.OnClickListener {
         this.mA = mA;
     }
 
-    public void initialiseView(){
+    public void prepareComponents(){
         logoutBtn = mA.findViewById(R.id.logoutBtn);
         logoutBtn.setOnClickListener(this);
     }

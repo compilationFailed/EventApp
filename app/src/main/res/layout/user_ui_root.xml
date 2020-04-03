@@ -16,10 +16,11 @@
             <LinearLayout
                 android:id="@+id/showviewLayout"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_alignTop="@+id/toolbar"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="1dp"
                 android:orientation="vertical">
 
             </LinearLayout>

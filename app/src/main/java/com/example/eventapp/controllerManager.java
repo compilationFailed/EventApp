@@ -5,12 +5,14 @@ public class controllerManager {
     private registerController RegisterController;
     private userController UserController;
     private userSettingsController UserSettingsController;
+    private userPartysController UserPartysController;
 
     public controllerManager(){
         switchViewController = new SwitchViewController();
         RegisterController = new registerController();
         UserController = new userController();
         UserSettingsController = new userSettingsController();
+        UserPartysController = new userPartysController();
     }
 
     public SwitchViewController getSwitchViewController(){
@@ -28,4 +30,6 @@ public class controllerManager {
     public userSettingsController getUserSettingsController(){
         return UserSettingsController;
     }
+
+    public userPartysController getUserPartysController(){ return UserPartysController; }
 }

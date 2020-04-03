@@ -7,4 +7,5 @@
     <color name="hyperText">#2b6eff</color>
     <color name="colorSecondary">#ffffff</color>
     <color name="black">#000000</color>
+    <color name="popupBackground">#bfbfbf</color>
 </resources>
