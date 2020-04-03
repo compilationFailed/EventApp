@@ -36,6 +36,10 @@
     <string name="tommorow">Morgen</string>
     <string name="later">Später</string>
     <string name="repeatPsw">Passwort wiederholen</string>
+    <string name="search">Suchen</string>
+    <string name="beforDate">Vor Datum</string>
+    <string name="afterDate">Nach Datum</string>
+    <string name="date">Datum</string>
     
     <!--EM Views-->
     <string name="defaultClubname">Clubname</string>

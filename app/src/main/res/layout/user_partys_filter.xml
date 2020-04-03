@@ -10,22 +10,6 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/createEvent"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="@dimen/titelTextSize" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center|top"
             android:orientation="vertical">
@@ -60,7 +44,51 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="@string/eventnameVisibleFor"
+                            android:text="@string/city"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="@dimen/defaultTextSize" />
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radioButton"
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:text="@string/beforDate" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/date"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                             android:textSize="@dimen/defaultTextSize" />
                     </LinearLayout>
@@ -78,107 +106,15 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:text="@string/ticketprice"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textSize="@dimen/defaultTextSize" />
-
-                    </LinearLayout>
-
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="20dp"
-                        android:layout_weight="1" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:orientation="vertical">
-
-                        <TextView
                             android:id="@+id/textView11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="@string/seats"
+                            android:text="@string/priceclass"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                             android:textSize="@dimen/defaultTextSize" />
-                    </LinearLayout>
 
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="20dp"
-                        android:layout_weight="1" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/textView12"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:text="@string/minimalAge"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textSize="@dimen/defaultTextSize" />
-                    </LinearLayout>
-
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="20dp"
-                        android:layout_weight="1" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/textView11"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:text="@string/startTime"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textSize="@dimen/defaultTextSize" />
-                    </LinearLayout>
-
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="20dp"
-                        android:layout_weight="1" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/textView13"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:text="@string/endTime"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                            android:textSize="@dimen/defaultTextSize" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -190,28 +126,37 @@
                     android:gravity="center_horizontal|top"
                     android:orientation="vertical">
 
-                    <Button
-                        android:id="@+id/button"
+                    <Spinner
+                        android:id="@+id/partycityDropdown5"
+                        style="@android:style/Widget.Material.Spinner.Underlined"
                         android:layout_width="100dp"
                         android:layout_height="40dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/default_button"
-                        android:text="@string/change"
-                        android:textColor="@color/colorSecondary" />
+                        android:layout_weight="1" />
 
                     <Space
                         android:layout_width="match_parent"
                         android:layout_height="20dp"
                         android:layout_weight="1" />
 
-                    <Button
-                        android:id="@+id/registerBtn"
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/afterDate" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_weight="1" />
+
+                    <EditText
+                        android:id="@+id/editText6"
                         android:layout_width="100dp"
                         android:layout_height="40dp"
                         android:layout_weight="1"
-                        android:background="@drawable/default_button"
-                        android:text="@string/change"
-                        android:textColor="@color/colorSecondary" />
+                        android:ems="10"
+                        android:inputType="date" />
 
                     <Space
                         android:layout_width="match_parent"
@@ -225,33 +170,53 @@
                         android:layout_height="40dp"
                         android:layout_weight="1" />
 
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="20dp"
-                        android:layout_weight="1" />
+                </LinearLayout>
 
-                    <Spinner
-                        android:id="@+id/partycityDropdown3"
-                        style="@android:style/Widget.Material.Spinner.Underlined"
-                        android:layout_width="100dp"
-                        android:layout_height="40dp"
-                        android:layout_weight="1" />
+            </LinearLayout>
 
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="20dp"
-                        android:layout_weight="1" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
 
-                    <Spinner
-                        android:id="@+id/partycityDropdown4"
-                        style="@android:style/Widget.Material.Spinner.Underlined"
-                        android:layout_width="100dp"
-                        android:layout_height="40dp"
-                        android:layout_weight="1" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appSettings"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="@dimen/defaultTextSize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|top"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Switch
+                        android:id="@+id/switch2"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/notificationSetting" />
 
                 </LinearLayout>
 
             </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
 
             <Space
                 android:layout_width="match_parent"
@@ -262,7 +227,7 @@
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:background="@drawable/default_button"
-                android:text="@string/saveEvent"
+                android:text="@string/search"
                 android:textColor="@color/colorSecondary" />
 
         </LinearLayout>
